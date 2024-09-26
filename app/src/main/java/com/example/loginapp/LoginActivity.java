@@ -55,7 +55,7 @@ public class LoginActivity extends AppCompatActivity {
 
         btnAddAccount.setOnClickListener(v -> {
             Intent intent = new Intent(getApplicationContext(), AccountActivity.class);
-            startActivity(intent);
+
         });
     }
 }
